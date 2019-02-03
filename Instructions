@@ -11,3 +11,9 @@ in AppModule.ts
     AngularFireAuthModule,
     AngularFireDatabaseModule
 npm i --save bootstrap
+npm i -- save @ng-bootstrap/ng-bootstrap ( dynamically change dropdown)
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
+For deployment:
+
+ 
