@@ -1,3 +1,13 @@
 Create a firebase project.
 Copy firebase project settings in environment.ts
 npm i --save firebase
+npm install firebase @angular/fire --save
+in AppModule.ts
+    import {AngularFireModule}  from 'angularfire2';
+    import {AngularFireDatabaseModule}  from 'angularfire2/database';
+    import {AngularFireAuthModule}  from 'angularfire2/auth';
+    imports[]
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule,
+    AngularFireDatabaseModule
+npm i --save bootstrap
