@@ -1,0 +1,3 @@
+Create a firebase project.
+Copy firebase project settings in environment.ts
+npm i --save firebase
